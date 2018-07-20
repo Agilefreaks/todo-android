@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void addToDo_onClick(View view)
+    public void openAddTodoActivity(View view)
     {
         Intent addToDoIntent = new Intent(this,AddToDoActivity.class);
 
